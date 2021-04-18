@@ -1,0 +1,42 @@
+@import 'shared/fonts.css';
+
+:root {
+    font-family: Roboto;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    margin: 0.2rem auto 0 auto;
+    padding: 0;
+    max-width: 99%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#menue1{
+    margin: 0 0.5rem 0 auto;
+}
+#menue1 ul{
+    list-style: none;
+}
+#menue1 li{
+    display: inline;
+    margin: 0 0.2rem 0 0.2rem;
+}
+#menue1 a:hover{
+    transition: ease-in-out 500ms;
+    color: red;
+}
+#menue1 a{
+    color: #fff;
+    text-decoration: none;
+} 
+
+

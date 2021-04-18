@@ -10,6 +10,7 @@ const expressLayouts = require('express-ejs-layouts')
 // Router Import 
 const indexRouter = require('./routes/index')
 
+// Server settings
 app.set('view engine', 'ejs')
 app.set('views', __dirname + '/views')
 app.set('layout', 'layouts/layout')
