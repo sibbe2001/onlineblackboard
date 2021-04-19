@@ -1,42 +1,85 @@
 @import 'shared/fonts.css';
 
+/*-------------------------------------------------*/
+
 :root {
-    font-family: Roboto;
+    font-family: Antic;
     font-size: 20px;
-    background-color: #000;
-    color: #fff;
+    box-sizing: border-box;
+    color: #777;
+    overflow-wrap: break-word;
 }
-body{
+
+html body{
     margin: 0;
     padding: 0;
 }
 
-#navbar{
-    margin: 0.2rem auto 0 auto;
-    padding: 0;
-    max-width: 99%;
-    height: 30px;
-    display: flex;
-    align-items: center;
-}
+/*-------------------------------------------------*/
 
-#menue1{
-    margin: 0 0.5rem 0 auto;
+header{
+    background-color: rgb(0, 0, 0, .6);
+    background-image: url("/img/background.png");
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
 }
-#menue1 ul{
+.navbar ul{
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
-#menue1 li{
+.navbar li{
     display: inline;
-    margin: 0 0.2rem 0 0.2rem;
 }
-#menue1 a:hover{
-    transition: ease-in-out 500ms;
-    color: red;
-}
-#menue1 a{
+.navbar a{
+    display: inline-block;
+    padding: .5em;
     color: #fff;
     text-decoration: none;
-} 
+}
+.navbar a:hover{
+    background-color: rgb(255, 255, 255, .3);
+}
 
+.main-nav{
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgb(255, 255, 255, .3);
+}
+.main-nav li{
+    padding: 0 .5%;
+}
 
+.headline{
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    font-family: Cinzel;
+    font-weight: normal;
+    color: #fff;
+}
+.headline-large{
+    font-size: 6em;
+}
+
+/*-------------------------------------------------*/
+
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-headline{
+    font-family: Cinzel;
+    font-weight: normal;
+    color: #333;
+}
+
+/*-------------------------------------------------*/
