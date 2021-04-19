@@ -10,9 +10,16 @@
     overflow-wrap: break-word;
 }
 
-html body{
+html,
+body{
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+
+#wrapper{
+    min-height: 100%;
+    position: relative;
 }
 
 /*-------------------------------------------------*/
@@ -68,6 +75,8 @@ header{
 
 .content-section{
     margin: 1em;
+    padding: 10px;
+    padding-bottom: 20px;
 }
 
 .container{
@@ -83,3 +92,13 @@ header{
 }
 
 /*-------------------------------------------------*/
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.3);
+    color: white;
+    text-align: center;
+    font-family: Cinzel;
+}
